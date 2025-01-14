@@ -1,8 +1,9 @@
 package study.week05;
+
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+public class P11005 {
+	public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int b = sc.nextInt();
@@ -25,4 +26,5 @@ public class Main {
         System.out.println(result.reverse().toString());
     
     }
+
 }
